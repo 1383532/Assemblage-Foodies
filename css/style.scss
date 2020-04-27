@@ -2,3 +2,18 @@
 @import '_interface/_interface';
 @import '_modules/_modules';
 @import '_layout/_layout';
+
+
+.contenu, header, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 span{
+    font-family: 'Courgette', cursive;
+}

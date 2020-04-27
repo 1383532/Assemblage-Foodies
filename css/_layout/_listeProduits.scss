@@ -1,0 +1,109 @@
+
+.banniere {
+    color: white;
+    font-weight: 500;
+    padding: 1em 2em;
+    background-color: var(--vert);
+}
+
+.profil{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3em;
+
+    
+    & > .utilisateur img{
+        border: 5px solid var(--peche);
+        padding-top: 1.5em;
+        width: 35%;
+        margin-bottom: 1em;
+
+    }
+
+    & > .utilisateur figcaption{
+        font-size: 1.30em;
+        display: flex;
+        flex-direction: column;
+    }
+    & > .utilisateur figcaption .prenom{
+        font-size: 1.35em;
+        font-weight: 700;
+        margin-bottom: 0.15em;
+    }
+}
+
+h2{
+    text-align: center;
+    font-size: 2.25em;
+    font-weight: 300;
+    margin: 1em 1em 0.30em 1em;
+}
+
+h3{
+    font-size: 1.75em;
+    font-weight: 500;
+    text-align: center;
+    color: var(--grisPale);
+}
+
+.intro{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    margin: 2em;
+}
+
+h4{
+    color: var(--orange);
+    margin: 1.75em 1.5em 0 1.5em;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+.contenu p{
+    margin: 1em 2em;
+    font-weight: 300;
+}
+
+.img-article figcaption{
+    font-weight: 300;
+    margin: 0 2em;
+    margin-bottom: 2.5em;
+}
+
+.recette{
+    display: flex;
+
+}
+
+.recette .texte-recette{
+    font-size: 0.90em;
+    line-height: 1.5em;
+}
+
+h5{
+    color: var(--grisTitre);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0.25em 1em;
+    padding-left: 0.75em;
+}
+
+.consulter{
+    background-color: var(--vert);
+    color: white;
+    font-weight: 500;
+    padding: 1em;
+    border-radius: 15px;
+    margin-left: 2em;
+}
+
+.consulter:hover{
+    background-color: black;
+}
+
+.separateur{
+    border-bottom: 1px solid var(--grisSeparateur);
+    margin: 1em 7em;
+}

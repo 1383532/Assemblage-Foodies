@@ -2,11 +2,228 @@
   --orange: #ff6c47;
   --peche: #f5c6ab;
   --vert: #bac373;
-  --grisSeperateur: #e5e5e5;
+  --grisSeparateur: #e5e5e5;
   --grisPale: #999999;
   --grisPub: #3e3e3e;
   --grisFonce: #4a4a4a;
-  --grisFooter: #222222;
   --grisTitre: #333333;
+  --grisFonce2: #222222;
+}
+
+.contenu {
+  min-width: 360px;
+  max-width: 780px;
+}
+
+.amis {
+  margin: 0.75em 2em;
+  width: 90%;
+}
+
+.recette figure img {
+  width: 196px;
+  margin: 1em 0 1em 2em;
+}
+
+header {
+  color: white;
+  background-color: black;
+  padding-top: 1.5em;
+}
+
+footer {
+  margin-top: 2em;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.banniere {
+  color: white;
+  font-weight: 500;
+  padding: 1em 2em;
+  background-color: var(--vert);
+}
+
+.profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.profil > .utilisateur img {
+  border: 5px solid var(--peche);
+  padding-top: 1.5em;
+  width: 35%;
+  margin-bottom: 1em;
+}
+
+.profil > .utilisateur figcaption {
+  font-size: 1.30em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profil > .utilisateur figcaption .prenom {
+  font-size: 1.35em;
+  font-weight: 700;
+  margin-bottom: 0.15em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 300;
+  margin: 1em 1em 0.30em 1em;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 500;
+  text-align: center;
+  color: var(--grisPale);
+}
+
+.intro {
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  margin: 2em;
+}
+
+h4 {
+  color: var(--orange);
+  margin: 1.75em 1.5em 0 1.5em;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.contenu p {
+  margin: 1em 2em;
+  font-weight: 300;
+}
+
+.img-article figcaption {
+  font-weight: 300;
+  margin: 0 2em;
+  margin-bottom: 2.5em;
+}
+
+.recette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recette .texte-recette {
+  font-size: 0.90em;
+  line-height: 1.5em;
+}
+
+h5 {
+  color: var(--grisTitre);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0.25em 1em;
+  padding-left: 0.75em;
+}
+
+.consulter {
+  background-color: var(--vert);
+  color: white;
+  font-weight: 500;
+  padding: 1em;
+  border-radius: 15px;
+  margin-left: 2em;
+}
+
+.consulter:hover {
+  background-color: black;
+}
+
+.separateur {
+  border-bottom: 1px solid var(--grisSeparateur);
+  margin: 1em 7em;
+}
+
+header .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 2em;
+}
+
+header .menu-principal ul {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 1em;
+}
+
+header .menu-principal ul li {
+  font-weight: 100;
+  padding: 1em;
+  max-width: 10em;
+}
+
+header .menu-principal ul li:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+.boite-pub {
+  background-color: var(--grisPub);
+  margin: 1em 2em;
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--grisPale);
+  font-size: 1em;
+}
+
+.contenu, header, footer {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 span {
+  font-family: 'Courgette', cursive;
 }
 /*# sourceMappingURL=style.css.map */

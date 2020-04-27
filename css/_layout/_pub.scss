@@ -1,0 +1,11 @@
+.boite-pub{
+    background-color: var(--grisPub);
+    margin: 1em 2em;
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: var(--grisPale);
+    font-size: 1em;
+}

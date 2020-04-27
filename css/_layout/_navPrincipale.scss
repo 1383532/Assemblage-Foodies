@@ -1,0 +1,33 @@
+header{
+
+    & .top{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2em;
+    }
+
+    & .hamburger {
+        
+    }
+
+    & .menu-principal ul{
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1em;
+    }
+
+    & .menu-principal ul li{
+        font-weight: 100;
+        padding: 1em;
+        max-width: 10em;
+    }
+
+    & .menu-principal ul li:hover{
+        background-color: white;
+        color: black;
+        font-weight: 500;
+    }
+
+
+}

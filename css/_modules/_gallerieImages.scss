@@ -1,2 +1,9 @@
-@import '_gallerieImages';
-@import '_login';
+.amis{
+    margin: 0.75em 2em;
+    width: 90%;
+}
+
+.recette figure img{
+    width: 196px;
+    margin: 1em 0 1em 2em;
+}
