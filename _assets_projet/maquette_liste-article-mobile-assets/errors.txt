@@ -1,0 +1,8 @@
+[2020-4-27 17:08:27] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+ copie": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+ copie 3": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+ copie 5": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+ copie 2": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+ copie 4": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-4-27 17:08:27] layer "+ copie 6": Expected Either a default asset specification or a layer asset specification but "+" found.
